@@ -1,0 +1,38 @@
+body {
+    background-image: url(pictures/simpleShop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+.product {
+    flex-direction: row;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+.product p {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin-left: 10px;
+
+
+}
