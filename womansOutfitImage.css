@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* navigation section */
+
+#nav-bar {
+    background-color: bisque;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+
+
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+
+}
+
+.drop-down a li {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.drop-down a {
+    text-decoration: none;
+    display: block;
+}
+
+ul li ul.drop-down {
+    width: 200px;
+    background-color: bisque;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    padding-top: 15px;
+}
+
+.drop-down a li:hover {
+    background-color: aliceblue;
+}
+
+ul li:hover ul.drop-down {
+    display: block;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 15px;
+}
+
+.nav_space {
+    width: 50px;
+}
+
+.angleImages{
+    padding-top: 100px;
+    padding-left: 100px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    float: left;  
+}
+
+.angleImages img{
+    width: 80px;
+    height: 100px;
+}
+
+.fullPicture{
+   padding: 100px 10px;
+}
+
+.fullPicture img{
+    width: 600px;
+    height: 800px;
+    
+}
+
+.imageSection{
+    display: flex;
+    padding-left: 100px;
+}
+
+.imageName{
+    font-size: xx-large;
+   
+    padding-top: 100px;
+}
+
+.rightSection{
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.addToCart{
+    padding: 20px 0;
+}
+
+.addToCart button{
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    font-weight: bold;
+   
+}
+
