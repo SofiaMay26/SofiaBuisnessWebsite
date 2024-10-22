@@ -200,7 +200,7 @@ ul li:hover ul.drop-down {
  /* section 3 */
 
 #section3 {
-    background-image: url(pictures/wallpaper3.jpg);
+    background-image: url(wallpapers/wallpaper3.jpg);
     height: 850px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,7 +301,7 @@ ul li:hover ul.drop-down {
 
     @keyframes example1 {
             from {
-                background-image: url("pictures/girlWallpaper.jpg");
+                background-image: url("wallpapers/girlWallpaper.jpg");
             }
     
             to {
@@ -489,47 +489,35 @@ ul li:hover ul.drop-down {
 
  /* section 7 */
 
-#section7 {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-#section7 p {
-    text-align: center;
-    font-size: x-large;
+ .topTrends{
     font-weight: bolder;
-    position: absolute;
-}
-
-.sixthpage1{
-    display: flex;
-    gap:30px;
-   padding: 70px 0;
-    justify-content: center;
-}
-
-.page {
-    flex-direction: row;
-    justify-content: center;
-    box-shadow: 0 0 4px black;
-    background-color: white;
-    padding: 15px;
-    border-radius: 20px;
     text-align: center;
-    font-size: medium;
+    margin-top: 15px;
+    
+ }
+
+
+.section7{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin-top: 10px;
+    gap: 20px;
+    
+   
+   
+}  
+
+ .page {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 4px black;
+    border-radius: 20px;
+   
+    
     
 }
-
-.page img {
-    width: 300px;
-    height: 300px;
-    padding: 0px;
-    margin-left: 20px;
-    border-radius: 20px;
-}
-
 
  /* footer */
 
@@ -550,8 +538,9 @@ ul li:hover ul.drop-down {
 .b
 {
     font-weight: bolder;
-    font-size: larger;
+    font-size: large;
     text-decoration: underline;
+  
 }
 
 .findUsImage{
@@ -562,4 +551,8 @@ ul li:hover ul.drop-down {
     padding-left:50px;
 }
 
-
+.signUp{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
