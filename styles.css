@@ -12,7 +12,7 @@
  /* navigation section */
 
 #nav-bar {
-    background-color: bisque;
+    background-color: #f38e5c;
     position: fixed;
      z-index: 999;
      width: 100%;
@@ -65,6 +65,7 @@ ul li:hover ul.drop-down {
     height: 50px;
    position: absolute;
    left: 15px;
+   padding: 5px;
 }
 
 .nav_space{
