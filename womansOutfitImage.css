@@ -11,14 +11,13 @@
 /* navigation section */
 
 #nav-bar {
-    background-color:#f38e5c;
+    background-color: #f38e5c;
     position: fixed;
     z-index: 999;
     width: 100%;
     top: 0;
     right: 0;
     left: 0;
-
 
 }
 
@@ -31,6 +30,7 @@ ul li {
     width: 200px;
 
 }
+
 
 .drop-down a li {
     color: black;
@@ -45,7 +45,7 @@ ul li {
 
 ul li ul.drop-down {
     width: 200px;
-    background-color: bisque;
+    background-color: #f38e5c;
     position: absolute;
     z-index: 999;
     display: none;
@@ -65,12 +65,15 @@ ul li:hover ul.drop-down {
     height: 50px;
     position: absolute;
     left: 15px;
+    padding-right: 7px;
     padding: 5px;
 }
 
 .nav_space {
     width: 50px;
 }
+
+     /* Section 1 */
 
 .angleImages{
     padding-top: 100px;
