@@ -127,3 +127,21 @@ ul li:hover ul.drop-down {
    
 }
 
+.discount{
+    background-color: rgb(222, 211, 252);
+    padding: 10px 30px;
+}
+
+.freeShipping{
+display: flex;
+flex-direction: column;
+padding: 20px 0;
+
+
+}
+
+.freeShipping img{
+width: 23px;
+height: 23px;
+}
+
