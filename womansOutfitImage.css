@@ -11,7 +11,7 @@
 /* navigation section */
 
 #nav-bar {
-    background-color: #f38e5c;
+    background-color: bisque;
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -28,6 +28,7 @@ ul li {
     text-align: center;
     padding: 15px;
     width: 200px;
+    left: 4%;
 
 }
 
@@ -36,6 +37,7 @@ ul li {
     color: black;
     font-size: 20px;
     text-align: center;
+    left: 0;
 }
 
 .drop-down a {
@@ -45,33 +47,36 @@ ul li {
 
 ul li ul.drop-down {
     width: 200px;
-    background-color: #f38e5c;
+    background-color: bisque;
     position: absolute;
     z-index: 999;
     display: none;
     padding-top: 15px;
+    border-radius: 20px;
+    left: 5px;
 }
 
 .drop-down a li:hover {
     background-color: aliceblue;
+    border-radius: 20px;
 }
 
 ul li:hover ul.drop-down {
     display: block;
 }
 
-.logo img {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: 15px;
-    padding-right: 7px;
-    padding: 5px;
+.logo {
+   width: 50px;
+   position: absolute;
+   border-radius: 10px;
+   left: 1%;
+   padding: 5px;
+   
+   
+  
 }
 
-.nav_space {
-    width: 50px;
-}
+
 
      /* Section 1 */
 
@@ -130,18 +135,26 @@ ul li:hover ul.drop-down {
 .discount{
     background-color: rgb(222, 211, 252);
     padding: 10px 30px;
+    border-radius: 20px;
 }
 
 .freeShipping{
-display: flex;
-flex-direction: column;
-padding: 20px 0;
-
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  gap: 8px
 
 }
 
 .freeShipping img{
 width: 23px;
 height: 23px;
+}
+
+.textbox{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    gap: 5px;
 }
 
