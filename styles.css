@@ -10,6 +10,23 @@
        
 } 
 
+@keyframes fade-in{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.section2 {
+ animation: fade-in linear;
+ animation-timeline: view();
+ animation-range: entry 30%;
+}
+
  /* navigation section */
 
 #nav-bar {
@@ -73,10 +90,8 @@ ul li:hover ul.drop-down {
     border-radius: 10px;
     left: 1%;
     padding: 5px;
-
-
-
 }
+
 
 
  /* section 1 */
@@ -169,12 +184,17 @@ ul li:hover ul.drop-down {
     justify-content: center;
     padding: 30px;
     gap: 30px;
+
+    /* animation */
+    animation: fade-in linear;
+        animation-timeline: view();
+        animation-range: entry 30%;
 }
 
 
 .landscapeProduct {
  background-color: white;
- box-shadow: 0 0 4px black;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  padding: 20px;
  border-radius: 20px;
  transition: transform 0.3s ease;
@@ -269,14 +289,10 @@ ul li:hover ul.drop-down {
 .h2_2{
     background-color: gainsboro;
     margin-top: 10px;
-    /* animation-direction: normal;
-    animation-duration: 4s;
-    animation-name: example2; */
+  
 }
 
-/* @keyframes example2{
-    0% {left:0px; right:30px}
-} */
+
 
  /* section 4 */
 
@@ -351,9 +367,17 @@ ul li:hover ul.drop-down {
     height: 450px;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 4px 4px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: aliceblue;
     
+}
+
+
+
+.thirdFull{
+    animation: fade-in linear;
+        animation-timeline: view();
+        animation-range: entry 0;
 }
 
 
@@ -366,7 +390,11 @@ ul li:hover ul.drop-down {
     gap: 50px;
     border-radius: 20px;
     padding: 70px 0;
-    
+
+    /* animation */
+    animation: fade-in linear;
+        animation-timeline: view();
+        animation-range: entry 0; 
 
 }
 
@@ -383,7 +411,7 @@ ul li:hover ul.drop-down {
     flex-direction: column;
     justify-content: center;
     background-color: white;
-    box-shadow: 0 0 4px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
     padding: 10px;
     align-items: center;
@@ -514,8 +542,11 @@ ul li:hover ul.drop-down {
     padding: 20px 0;
     margin-top: 10px;
     gap: 20px;
-    
-   
+
+    /* animation */
+    animation: fade-in linear;
+        animation-timeline: view();
+        animation-range: entry 0;
    
 }  
 
@@ -523,7 +554,7 @@ ul li:hover ul.drop-down {
     align-items: center;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 0 4px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
     transition: transform 0.3s ease;
   

@@ -94,20 +94,20 @@ ul li:hover ul.drop-down {
     height: 100px;
 }
 
-.fullPicture img {
+.fullPicture img{
     padding: 100px 10px;
     width: 600px;
     height: 800px;
 }
 
-.customers_Review {
+.customers_Review{
     position: absolute;
     left: 15%;
     top: 80%;
-
+    
 }
 
-.rate {
+.rate{
     display: inline-flex;
     background-color: rgb(233, 228, 228);
     padding: 20px;
@@ -116,17 +116,17 @@ ul li:hover ul.drop-down {
     width: 585px;
 }
 
-.rate img {
+.rate img{
     width: 30px;
     height: 30px;
 }
 
-.qualityPercent {
+.qualityPercent{
     flex-direction: row;
     padding: 0 15px;
 }
 
-.overallFit {
+.overallFit{
     position: absolute;
     left: 3%;
     bottom: 10%;
@@ -134,11 +134,11 @@ ul li:hover ul.drop-down {
 
 }
 
-.overallFit_body {
+.overallFit_body{
     display: flex;
 }
 
-.overallFit_container {
+.overallFit_container{
     display: flex;
     padding: 5px 20px;
 }
@@ -146,7 +146,7 @@ ul li:hover ul.drop-down {
 .overallFit_container img {
     width: 50px;
     height: 20px;
-
+    
 }
 
 
@@ -165,7 +165,7 @@ ul li:hover ul.drop-down {
     position: absolute;
     top: 0;
     right: 33%;
-
+ 
 }
 
 .addToCart {
@@ -205,3 +205,7 @@ ul li:hover ul.drop-down {
     display: flex;
     gap: 5px;
 }
+
+
+
+
