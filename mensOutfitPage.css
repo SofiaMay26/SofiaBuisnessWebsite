@@ -75,12 +75,21 @@ ul li:hover ul.drop-down {
 
 
 }
+
+.sortBy{
+    position: absolute;
+    bottom: 85%;
+    left: 5%;
+    
+   
+}
+
     /* Section 1 */
 
 #section1 {
-    padding: 100px 50px;
+      padding: 150px 50px;  
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 50px;
 

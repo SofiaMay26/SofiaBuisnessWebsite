@@ -120,6 +120,10 @@
 
  .itemsBody {
      border: 1px solid;
-     padding: 10px;
-    
+     padding: 10px;  
+ }
+
+ .itemsBody a{
+    display: block;
+    text-decoration: none;
  }
