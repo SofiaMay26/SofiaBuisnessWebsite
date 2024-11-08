@@ -124,8 +124,14 @@ ul li:hover ul.drop-down {
 
  .itemsBody{
     border: 1px solid;
-    padding: 10px; 
+    padding: 10px;
  
+ }
+
+ .itemsBody a{
+        text-decoration: none;
+        display: block;
+        color: black;
  }
 
 
