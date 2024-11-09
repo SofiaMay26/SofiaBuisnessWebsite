@@ -92,6 +92,13 @@ ul li:hover ul.drop-down {
     padding: 5px;
 }
 
+.search{
+    display: flex;
+    gap: 15px;
+    padding-left: 100px;
+    
+}
+
 
 
  /* section 1 */
