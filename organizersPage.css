@@ -11,7 +11,7 @@
 /* navigation section */
 
 #nav-bar {
-    background-color: bisque;
+    background-color: whitesmoke;
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -47,7 +47,7 @@ ul li {
 
 ul li ul.drop-down {
     width: 200px;
-    background-color: bisque;
+    background-color: whitesmoke;
     position: absolute;
     z-index: 999;
     display: none;
@@ -57,7 +57,7 @@ ul li ul.drop-down {
 }
 
 .drop-down a li:hover {
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 20px;
 }
 
@@ -73,9 +73,16 @@ ul li:hover ul.drop-down {
     padding: 5px;
 }
 
+.search {
+    display: flex;
+    gap: 15px;
+    padding-left: 100px;
+
+}
+
 .sortBy {
     position: absolute;
-    bottom: 85%;
+    top: 10%;
     left: 5%;
 
 

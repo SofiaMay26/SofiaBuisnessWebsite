@@ -10,71 +10,76 @@
 
 /* navigation section */
 
-#nav-bar {
-    background-color: bisque;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
+ #nav-bar {
+     background-color: whitesmoke;
+     position: fixed;
+     z-index: 999;
+     width: 100%;
+     top: 0;
+     right: 0;
+     left: 0;
 
-}
+ }
 
-ul li {
-    display: inline-block;
-    position: relative;
-    font-size: large;
-    text-align: center;
-    padding: 15px;
-    width: 200px;
-    left: 4%;
+ ul li {
+     display: inline-block;
+     position: relative;
+     font-size: large;
+     text-align: center;
+     padding: 15px;
+     width: 200px;
+     left: 4%;
 
-}
-
-
-.drop-down a li {
-    color: black;
-    font-size: 20px;
-    text-align: center;
-    left: 0;
-}
-
-.drop-down a {
-    text-decoration: none;
-    display: block;
-}
-
-ul li ul.drop-down {
-    width: 200px;
-    background-color: bisque;
-    position: absolute;
-    z-index: 999;
-    display: none;
-    padding-top: 15px;
-    border-radius: 20px;
-    left: 5px;
-}
-
-.drop-down a li:hover {
-    background-color: aliceblue;
-    border-radius: 20px;
-}
-
-ul li:hover ul.drop-down {
-    display: block;
-}
-
-.logo {
-    width: 50px;
-    position: absolute;
-    border-radius: 10px;
-    left: 1%;
-    padding: 5px;
+ }
 
 
+ .drop-down a li {
+     color: black;
+     font-size: 20px;
+     text-align: center;
+     left: 0;
+ }
 
-}
+ .drop-down a {
+     text-decoration: none;
+     display: block;
+ }
+
+ ul li ul.drop-down {
+     width: 200px;
+     background-color: whitesmoke;
+     position: absolute;
+     z-index: 999;
+     display: none;
+     padding-top: 15px;
+     border-radius: 20px;
+     left: 5px;
+ }
+
+ .drop-down a li:hover {
+     background-color: white;
+     border-radius: 20px;
+ }
+
+ ul li:hover ul.drop-down {
+     display: block;
+ }
+
+ .logo {
+     width: 50px;
+     position: absolute;
+     border-radius: 10px;
+     left: 1%;
+     padding: 5px;
+ }
+
+ .search {
+     display: flex;
+     gap: 15px;
+     padding-left: 100px;
+
+ }
+
 
 
 
@@ -103,7 +108,7 @@ ul li:hover ul.drop-down {
 .customers_Review{
     position: absolute;
     left: 15%;
-    top: 80%;
+    top: 78%;
     
 }
 

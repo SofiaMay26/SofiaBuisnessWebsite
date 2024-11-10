@@ -11,7 +11,7 @@
 /* navigation section */
 
 #nav-bar {
-    background-color: bisque;
+    background-color: whitesmoke;
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -47,7 +47,7 @@ ul li {
 
 ul li ul.drop-down {
     width: 200px;
-    background-color: bisque;
+    background-color: whitesmoke;
     position: absolute;
     z-index: 999;
     display: none;
@@ -57,7 +57,7 @@ ul li ul.drop-down {
 }
 
 .drop-down a li:hover {
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 20px;
 }
 
@@ -71,11 +71,14 @@ ul li:hover ul.drop-down {
     border-radius: 10px;
     left: 1%;
     padding: 5px;
-
-
-
 }
 
+.search {
+    display: flex;
+    gap: 15px;
+    padding-left: 100px;
+
+}
 
 
 /* Section 1 */
@@ -103,7 +106,7 @@ ul li:hover ul.drop-down {
 .customers_Review {
     position: absolute;
     left: 15%;
-    top: 80%;
+    top: 78%;
 
 }
 
@@ -182,9 +185,11 @@ ul li:hover ul.drop-down {
 
 .discount {
     background-color: rgb(222, 211, 252);
-    padding: 10px 30px;
     border-radius: 20px;
     position: absolute;
+    padding: 20px;
+    right: 28%;
+    top: 43%;
 }
 
 .freeShipping {

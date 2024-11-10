@@ -12,7 +12,7 @@
 /* navigation section */
 
 #nav-bar {
-    background-color: bisque;
+    background-color: whitesmoke;
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -48,7 +48,7 @@ ul li {
 
 ul li ul.drop-down {
     width: 200px;
-    background-color: bisque;
+    background-color: whitesmoke;
     position: absolute;
     z-index: 999;
     display: none;
@@ -58,7 +58,7 @@ ul li ul.drop-down {
 }
 
 .drop-down a li:hover {
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 20px;
 }
 
@@ -72,18 +72,28 @@ ul li:hover ul.drop-down {
     border-radius: 10px;
     left: 1%;
     padding: 5px;
+}
 
+.search {
+    display: flex;
+    gap: 15px;
+    padding-left: 100px;
 
+}
 
+.sortBy {
+    position: absolute;
+    top: 10%;
+    left: 5%;
 }
 
 
  #section1{
-  padding: 100px 50px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  row-gap: 50px;
+    padding: 150px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
  
  }
 
