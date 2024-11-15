@@ -21,11 +21,7 @@
     }
 }
 
-.section2 {
- animation: fade-in linear;
- animation-timeline: view();
- animation-range: entry 30%;
-}
+
 
  /* navigation section */
 
@@ -150,21 +146,15 @@ ul li:hover ul.drop-down {
 
 .list {
    display: flex;
-   
-  
+   border-radius: 20px;
 }
 
 
 .list li {
-  text-align: left;
-  font-weight: 100;
-  text-decoration: none;
-  display: block;
-  font-size: small;
-  color: white;
-  padding-top: 25px;
-  left: 5px;
-
+    float: left;
+    font-size: small;
+    text-align: left;
+    color: white;
 }
 
 .list img{
@@ -186,11 +176,13 @@ ul li:hover ul.drop-down {
 
  /* section 2 */
 
-#section2 {
-    display: flex;
+#recommended_section {
+     display: flex;
     justify-content: center;
     padding: 30px;
+    padding-top: 60px;
     gap: 30px;
+    
 
     /* animation */
     animation: fade-in linear;
@@ -198,40 +190,46 @@ ul li:hover ul.drop-down {
         animation-range: entry 30%;
 }
 
+#recommended_section h2 {
+   position: absolute;
+   top: 5%;
+   
 
-.landscapeProduct {
- background-color: white;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- padding: 20px;
- border-radius: 20px;
- transition: transform 0.3s ease;
 }
 
-.landscapeProduct:hover{
-    transform: scale(1.05);
+.recommended_product   { 
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+  
 }
 
+.recommended_product p{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: small;
+}
 
-.landscapeProduct img {
-    width: 200px;
+.recommended_product img{
+width: 200px;
     height: 200px;
     border-radius: 20px;
-   
-   
 }
 
-.landscapeProduct p {
-   text-align: center;
-   padding-bottom: 10px;
-   font-size: small;
-
+.recommended_product:hover{
+     transform: scale(1.05); 
 }
 
-.h2{
-    text-align: center;
-    padding: 20px;
 
-}
+
+
+#recommended_section {
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range: entry 30%;
+} 
 
  /* section 3 */
 
@@ -267,6 +265,7 @@ ul li:hover ul.drop-down {
     align-self: center;
     padding: 10px;
     background-color: rgb(224, 225, 226);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 500px;
     margin: 20px;
     border-radius: 20px;
@@ -468,70 +467,40 @@ ul li:hover ul.drop-down {
     padding: 20px;
 }
 
-#fifthpage input {
-    color: white;
-    width: 200px;
-    height: 30px;
-    background-color: red;
-    margin-left: 1200px;
-    margin-top: 20px;
-}
-
-
-.fifthpage0 {
-    display: flex;
-    justify-content: center;
-    
-
-}
-
-.fifthpage0 img {
-    background-color: rgb(62, 62, 252);
-    width: 500px;
-    height: 300px;
-    margin: 50px;
-    
-}
-
-.fifthpage1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 20px;
-    
-}
-
-.fifthpage2{
-  transition: transform 0.3s ease;
-}
-
-.fifthpage2:hover{
-    transform: scale(1.05);
-}
-
-.fifthpage1 img {
-    height: 200px;
-    width: 200px;
-    padding: 30px;
-    border-radius: 20px;
-}
-
-.button1{
-    float: right;
-    padding: 5px;
-}
-
-.h2_3{
-    color: aliceblue;
-    font-size: x-large;
-    text-align: center;
-}
-
-.tshirtKinds{
+#section6 input {
     position: absolute;
-    padding-left: 65px;
+    right: 30%;
+    color: red;
+}
+
+#section6 h2{
+    text-align: center;
+    font-weight: bolder;
     color: yellow;
 }
+
+.t-shirt_wallpaper{
+   display: flex;
+   justify-content: center;
+   padding: 15px;
+}
+
+.t-shirts{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.t-shirts img{
+    width: 100px;
+    height: 100px;
+}
+
+.t-shirts p{
+    color: yellow;
+    text-align: center;
+}
+ 
 
  /* section 7 */
 
@@ -605,6 +574,7 @@ ul li:hover ul.drop-down {
 
 .signUp{
     display: flex;
+    gap: 10px;
     padding: 0;
     margin: 0;
 }
