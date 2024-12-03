@@ -210,3 +210,33 @@ ul li:hover ul.drop-down {
     display: flex;
     gap: 5px;
 }
+
+#cart{
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ddd;
+}
+
+#addToCartButton{
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    border: 2px solid;
+    position: absolute;
+    left: 47%;
+}

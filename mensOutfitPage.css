@@ -140,3 +140,12 @@ ul li:hover ul.drop-down {
     padding: 10px;
    
 }
+
+#addToCartButton {
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    border: 2px solid;
+    position: absolute;
+    left: 47%;
+}
