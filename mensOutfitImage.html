@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="mensOutfitImage.css" />
+    <link rel="stylesheet" href="outfitImage.css" />
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -12,7 +12,7 @@
     <nav id="nav-bar">
       <ul>
         <a href="index.html">
-        <img class="logo" src="pictures/earrings.jpg" alt="" />
+          <img class="logo" src="pictures/earrings.jpg" alt="" />
         </a>
         <li>
           Clothes
@@ -125,70 +125,75 @@
       <!-- Right Section -->
 
       <div class="rightSection">
-          <div class="imageName">
-            <p>White Polo w/ Gray Jacket.</p>
-          </div>
-          <div class="newTrends">
-            <img src="icons/new.png" alt="" />
-            <img src="icons/trending.png" alt="" />
-          </div>
+        <div class="imageName">
+          <p>White Polo w/ Gray Jacket.</p>
+        </div>
+        <div class="newTrends">
+          <img src="icons/new.png" alt="" />
+          <img src="icons/trending.png" alt="" />
+        </div>
+        <form action="" id="form">
           <div class="checkBox">
-            <label for="">Outfit Size</label>
+            <label id="size" for="">Outfit Size</label>
             <br />
             <br />
-            <input type="radio" name="Size" value="XS" /> XS
-            <input type="radio" name="Size" value="S" /> S
-            <input type="radio" name="Size" value="M" /> M
-            <input type="radio" name="Size" value="L" /> L
-            <input type="radio" name="Size" value="XL" /> XL
+            <input type="radio" name="size" value="XS" /> XS
+            <input type="radio" name="size" value="S" /> S
+            <input type="radio" name="size" value="M" /> M
+            <input type="radio" name="size" value="L" /> L
+            <input type="radio" name="size" value="XL" /> XL
           </div>
           <div class="addToCart">
-            <button>Add To Cart</button>
-          </div> 
+            <input type="submit" value="Add To Cart" />
+            <p id="product">Terno Men's Outfit</p>
+            <p id="price">1,800.00</p>
+          </div>
+        </form>
+      </div>
 
       <!-- Discount Sections -->
 
-       <div class="discount">
-            <div class="freeShipping">
-              <p style="font-weight: bolder">
-                <img src="icons/free shipping.png" alt="" />Free Shipping
-                <img src="icons/question mark.png" alt="" />
-              </p>
+      <div class="discount">
+        <div class="freeShipping">
+          <p style="font-weight: bolder">
+            <img src="icons/free shipping.png" alt="" />Free Shipping
+            <img src="icons/question mark.png" alt="" />
+          </p>
 
-              <p style="font-weight: lighter">
-                Free shipping Standard on Orders over ₱2,849
-              </p>
-              <div class="freeShipping">
-                <p style="font-weight: bolder">
-                  <img src="icons/COD policy.png" alt="" />COD Policy
-                  <img src="icons/question mark.png" alt="" />
-                </p>
+          <p style="font-weight: lighter">
+            Free shipping Standard on Orders over ₱2,849
+          </p>
+          <div class="freeShipping">
+            <p style="font-weight: bolder">
+              <img src="icons/COD policy.png" alt="" />COD Policy
+              <img src="icons/question mark.png" alt="" />
+            </p>
 
-                <p style="font-weight: lighter">Learn More</p>
-              </div>
-              <div class="freeShipping">
-                <p style="font-weight: bolder">
-                  <img src="icons/return policy.png" alt="" />Return Policy
-                  <img src="icons/question mark.png" alt="" />
-                </p>
+            <p style="font-weight: lighter">Learn More</p>
+          </div>
+          <div class="freeShipping">
+            <p style="font-weight: bolder">
+              <img src="icons/return policy.png" alt="" />Return Policy
+              <img src="icons/question mark.png" alt="" />
+            </p>
 
-                <p style="font-weight: lighter">Learn More</p>
-              </div>
-              <div class="freeShipping">
-                <p style="font-weight: bolder">
-                  <img src="icons/shopping security.png" alt="" />Shopping
-                  Security
-                  <img src="icons/question mark.png" alt="" />
-                </p>
+            <p style="font-weight: lighter">Learn More</p>
+          </div>
+          <div class="freeShipping">
+            <p style="font-weight: bolder">
+              <img src="icons/shopping security.png" alt="" />Shopping Security
+              <img src="icons/question mark.png" alt="" />
+            </p>
 
-                <p style="font-weight: lighter">
-                  <img src="icons/check.png" alt="" /> Safe Payments
-                  <img src="icons/check.png" alt="" /> Secure Logistics
-                  <img src="icons/check.png" alt="" /> Customer Service
-                </p>
-              </div>
-            </div>
-          </div> 
+            <p style="font-weight: lighter">
+              <img src="icons/check.png" alt="" /> Safe Payments
+              <img src="icons/check.png" alt="" /> Secure Logistics
+              <img src="icons/check.png" alt="" /> Customer Service
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
+    <script src="addToCart.js"></script>
   </body>
 </html>

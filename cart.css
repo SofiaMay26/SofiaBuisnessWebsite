@@ -1,0 +1,12 @@
+#cart{
+    background-color: whitesmoke;
+    padding: 20px;
+    background-size: contain;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid;
+}
+
+#cart h1{
+    text-align: center;
+}
