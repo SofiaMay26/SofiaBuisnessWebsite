@@ -54,6 +54,7 @@ ul li {
 
 .drop-down a li:hover {
     background-color: rgb(221, 221, 221);
+    color: black;
     border-radius: 20px;
 }
 

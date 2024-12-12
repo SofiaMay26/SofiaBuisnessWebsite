@@ -26,10 +26,10 @@ body {
      display: inline-block;
      color: white;
      font-size: large;
-     text-align: right;
-     padding: 10px 30px;
+     padding: 10px 0;
+     padding-left: 80px;
      width: 150px;
-     left: 2%;
+     left: 7%;
 
  }
 
@@ -55,6 +55,7 @@ body {
 
  .drop-down a li:hover {
      background-color: rgb(221, 221, 221);
+     color: black;
      border-radius: 20px;
  }
 
