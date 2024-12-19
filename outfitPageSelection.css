@@ -17,7 +17,7 @@ body {
      top: 0;
      right: 0;
      left: 0;
-     padding-left: 20px;
+     padding-left: 30px;
 
 
  }
@@ -26,16 +26,15 @@ body {
      display: inline-block;
      color: white;
      font-size: large;
+     text-align: center;
      padding: 10px 0;
-     padding-left: 80px;
-     width: 150px;
-     left: 7%;
+     width: 210px;
+
 
  }
 
  .drop-down a {
      text-decoration: none;
-     text-align: center;
      display: block;
  }
 
@@ -43,13 +42,12 @@ body {
  .drop-down {
      background-color: rgb(39, 39, 39);
      background-size: contain;
-     top: 60%;
+     top: 80%;
      padding: 15px;
-     padding-top: 30px;
+     padding-top: 20px;
      position: absolute;
      display: none;
      border-radius: 20px;
-     text-align: center;
 
  }
 
@@ -113,8 +111,9 @@ body {
 }
 
 .dressName p {
-    padding-top: 18px;
-    padding-left: 0;
+    font-size: large;
+    padding-left: 10px;
+  
 }
 
 .cart {
@@ -130,9 +129,14 @@ body {
     padding-bottom: 20px;
 }
 
+.price p{
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
 .itemsBody {
     border: 1px solid;
-    padding: 10px;
+    padding: 15px 20px ;
 
 }
 

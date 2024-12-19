@@ -15,7 +15,7 @@ body{
     top: 0;
     right: 0;
     left: 0;
-    padding-left: 20px;
+    padding-left: 30px;
 
 
 }
@@ -25,15 +25,14 @@ ul li {
     color: white;
     font-size: large;
     text-align: center;
-    padding: 10px 30px;
-    width: 150px;
-    left: 2%;
+    padding: 10px 0;
+    width: 210px;
+
 
 }
 
 .drop-down a {
     text-decoration: none;
-    text-align: center;
     display: block;
 }
 
@@ -41,9 +40,9 @@ ul li {
 .drop-down {
     background-color: rgb(39, 39, 39);
     background-size: contain;
-    top: 60%;
+    top: 80%;
     padding: 15px;
-    padding-top: 30px;
+    padding-top: 20px;
     position: absolute;
     display: none;
     border-radius: 20px;
@@ -51,9 +50,9 @@ ul li {
 }
 
 .drop-down a li:hover {
-    background-color: whitesmoke;
-    border-radius: 20px;
+    background-color: rgb(221, 221, 221);
     color: black;
+    border-radius: 20px;
 }
 
 ul li:hover ul.drop-down {

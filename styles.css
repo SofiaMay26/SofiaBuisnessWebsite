@@ -171,7 +171,7 @@ ul li:hover ul.drop-down {
  /* section 2 */
 
 #section2 {
-     display: flex;
+    display: flex;
     justify-content: center;
     padding: 30px;
     padding-top: 60px;
@@ -184,25 +184,29 @@ ul li:hover ul.drop-down {
         animation-range: entry 30%;
 }
 
+#section2{
+    padding: 70px;
+}
+
 #section2 h2 {
    position: absolute;
    top: 0;
-   
 
 }
 
 .recommended_product   { 
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 15px;
+    padding: 20px;
     border-radius: 20px;
+    height: fit-content;
     transition: transform 0.3s ease;
   
 }
 
 .recommended_product p{
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 0;
     font-size: small;
 }
 
@@ -236,11 +240,9 @@ ul li:hover ul.drop-down {
 }
 
 #section3 h2{
-    font-weight: 500;
-
-    
-    
-
+    background-color: white;
+    border-radius: 30px;
+    color: black;
 }
 
 
@@ -250,11 +252,7 @@ ul li:hover ul.drop-down {
     display: flex;
     gap: 30px;
     padding: 20px;
- 
-    
-    
-   
- 
+
 }
 
 
@@ -265,13 +263,11 @@ ul li:hover ul.drop-down {
     align-items: center;
     padding: 20px;
     border-radius: 20px;
-    
-
 }
 
 .thirdFull img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 20px;
    
  
@@ -337,7 +333,7 @@ ul li:hover ul.drop-down {
         }
 
 .boys1{
-    animation-name: example2;
+       animation-name: example2;
         animation-duration: 2s;
         animation-direction: alternate;
         animation-iteration-count: infinite;
