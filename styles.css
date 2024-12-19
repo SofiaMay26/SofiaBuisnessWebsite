@@ -4,7 +4,7 @@ body {
     font-family: "Roboto", serif;
     font-weight: 500;
     font-style: normal;
-     
+   
 } 
 
 @keyframes fade-in{
@@ -95,35 +95,37 @@ ul li:hover ul.drop-down {
  /* section 1 */
 
 #section1 {
+    background-image: url(gif/shopping.gif);
     height: 850px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    animation-name: example;
+    /* animation-name: example;
     animation-duration: 8s;
     animation-direction: alternate-reverse;
-    animation-iteration-count: infinite;
-    object-fit: cover;
+    animation-iteration-count: infinite; */
+    /* object-fit: cover; */
     
 }
 
-@keyframes example {
+/* @keyframes example {
     from {
         background-image: url("pictures/girls.jpg");
     }
     to{
         background-image: url("wallpapers/logo\ cover.jpg");
     }
-}
+} */
 
 .landingpageheader {
     width: 650px;
     height: 200px;
     padding: 25px;
-    color: white;
-    backdrop-filter: blur(50px);
+    color:black;
+    backdrop-filter: blur(100px);
     border-radius: 20px;
     flex-shrink: 0px;
     font-size: large;
@@ -132,7 +134,7 @@ ul li:hover ul.drop-down {
 
 
 .landingpagelist {
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(100px);
     padding: 20px;
     width: 350px;
 
@@ -148,7 +150,7 @@ ul li:hover ul.drop-down {
     float: left;
     font-size: small;
     text-align: left;
-    color: white;
+    color: black;
 }
 
 .list img{
@@ -232,15 +234,16 @@ ul li:hover ul.drop-down {
  /* section 3 */
 
 #section3 {
-    background-image: url(wallpapers/wallpaper3.jpg);
+    background-image: url(gif/add_to_cart.gif);
     height: 850px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: right;
     padding: 160px;
 }
 
 #section3 h2{
-    background-color: white;
+   
     border-radius: 30px;
     color: black;
 }
@@ -295,9 +298,10 @@ ul li:hover ul.drop-down {
  /* section 4 */
 
 #section4 {
-    background-image: url("pictures/wood.jpg");
+    background-image: url("pictures/website_wallpaper_clothes.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 600px;
     padding: 60px;
 
@@ -309,20 +313,26 @@ ul li:hover ul.drop-down {
     flex-direction: row;
     gap: 20px;
     border-radius: 20px;
+    padding: 20px;
+   
 
 }
 
 .girls1{
-    animation-name: example1;
+    background-image: url(gif/girls_gif.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    /* animation-name: example1;
     animation-duration: 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     
 }
 
-    @keyframes example1 {
+    /* @keyframes example1 {
             from {
                 background-image: url("wallpapers/girlWallpaper.jpg");
             }
@@ -330,18 +340,21 @@ ul li:hover ul.drop-down {
             to {
                 background-image: url("pictures/edited1.jpg");
             }
-        }
+        } */
 
 .boys1{
-       animation-name: example2;
+    background-image: url(gif/boys_gif.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+       /* animation-name: example2;
         animation-duration: 2s;
         animation-direction: alternate;
         animation-iteration-count: infinite;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; */
 }
 
-@keyframes example2 {
+/* @keyframes example2 {
     from {
         background-image: url("pictures/boys1.jpg");
     }
@@ -349,7 +362,7 @@ ul li:hover ul.drop-down {
     to {
         background-image: url("pictures/edit2.jpg");
     }
-}
+} */
 
 
 #thirdpage h2{
